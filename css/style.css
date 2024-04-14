@@ -134,8 +134,43 @@ body {
 }
 
 /*about page*/
-.about {
-  padding: 10rem 7% 1.4rem;
+.About {
+  padding: 8rem 7% 1.4rem;
+}
+
+.About h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+}
+
+.About .row {
+  display: flex;
+}
+
+.About .row .About-img {
+  flex: 1 1 45rem;
+}
+
+.About .row .About-img img {
+  width: 100%;
+}
+
+.About .row .Content {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+
+.About .row .Content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.About .row .Content p {
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: 100;
+  line-height: 1.6;
 }
 
 /*media responsif media queries*/
